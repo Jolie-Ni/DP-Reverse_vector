@@ -8,7 +8,7 @@ void helper(vector<int>::iterator itr_b,vector<int>::iterator itr_e,vector<int> 
 
 int main() {
     cout << "reverse vector" << endl;
-    int myints[] = {1,2,3,4,5,6};
+    int myints[] = {1,2,3,4,5,6,7,8};
     vector<int> v1 (myints,myints + sizeof(myints)/sizeof(int));
 //    vector<int> v2 = reverse_vec(v1);
 //    for(vector<int>::iterator itr = v2.begin(); itr != v2.end();itr++){
