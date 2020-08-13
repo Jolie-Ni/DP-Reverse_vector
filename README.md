@@ -1,2 +1,2 @@
-# -C-daily_practise-Reverse_vector
+# DP-Reverse_vector
 a repo created for daily practise
