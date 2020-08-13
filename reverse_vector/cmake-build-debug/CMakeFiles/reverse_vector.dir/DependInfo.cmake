@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nan/Desktop/projects/C++ projects/reverse_vector/main.cpp" "/Users/nan/Desktop/projects/C++ projects/reverse_vector/cmake-build-debug/CMakeFiles/reverse_vector.dir/main.cpp.o"
+  "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector/main.cpp" "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector/cmake-build-debug/CMakeFiles/reverse_vector.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
