@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector"
+CMAKE_SOURCE_DIR = "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/reverse_vector.dir/all
+all: CMakeFiles/DP_Reverse_vector.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/reverse_vector.dir/clean
+clean: CMakeFiles/DP_Reverse_vector.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/reverse_vector.dir
+# Target rules for target CMakeFiles/DP_Reverse_vector.dir
 
 # All Build rule for target.
-CMakeFiles/reverse_vector.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse_vector.dir/build.make CMakeFiles/reverse_vector.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse_vector.dir/build.make CMakeFiles/reverse_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target reverse_vector"
-.PHONY : CMakeFiles/reverse_vector.dir/all
+CMakeFiles/DP_Reverse_vector.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DP_Reverse_vector.dir/build.make CMakeFiles/DP_Reverse_vector.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DP_Reverse_vector.dir/build.make CMakeFiles/DP_Reverse_vector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target DP_Reverse_vector"
+.PHONY : CMakeFiles/DP_Reverse_vector.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/reverse_vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reverse_vector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/reverse_vector/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/reverse_vector.dir/rule
+CMakeFiles/DP_Reverse_vector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DP_Reverse_vector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/nan/Desktop/projects/C++ projects/DP-Reverse_vector/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/DP_Reverse_vector.dir/rule
 
 # Convenience name for target.
-reverse_vector: CMakeFiles/reverse_vector.dir/rule
+DP_Reverse_vector: CMakeFiles/DP_Reverse_vector.dir/rule
 
-.PHONY : reverse_vector
+.PHONY : DP_Reverse_vector
 
 # clean rule for target.
-CMakeFiles/reverse_vector.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse_vector.dir/build.make CMakeFiles/reverse_vector.dir/clean
-.PHONY : CMakeFiles/reverse_vector.dir/clean
+CMakeFiles/DP_Reverse_vector.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DP_Reverse_vector.dir/build.make CMakeFiles/DP_Reverse_vector.dir/clean
+.PHONY : CMakeFiles/DP_Reverse_vector.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
