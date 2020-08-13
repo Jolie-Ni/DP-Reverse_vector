@@ -34,3 +34,4 @@
 ssh_file
 ssh_file.pub
 cmake-build-debug CMakeLists.txt
+cmake-build-debugnCMakeLists.txt
